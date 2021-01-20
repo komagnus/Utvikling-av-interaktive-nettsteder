@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="nb">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Mitt Webområde</title>
+        <link href="indexstil.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        <header class="box"> <!--Her ligger overskriften til siden. Alle deler av nettsiden er lagt i klassen "box".-->
+            <h1> <a id= "hovedoverskrift" href="index.html">Mitt Webområde</a></h1> <!--Gjør slik at trykk på hovedoverskriften oppdaterer siden/ sender tilbake til hovedsiden-->
+        </header>
+        <menu>
+            <ul id="meny" class="box"> <!--Her ligger Menyen-->
+                <li><a class="menyflex" href="index.html">Hjem</a></li>
+                <li><a class="menyflex" href="webutvikling/index1.html">Webutvikling</a></li>
+                <li><a class="menyflex" href="innfprog/index2.html">Innføring i Programmering</a></li>
+            </ul>
+        </menu>
+        <main class="box"> <!--Her ligger hovedområdet med 3 artikler lagt inn.-->
+                <section class="flex">
+                    <article class="artiklene" >
+                        <h2 class="artikkeloverskrift">Webutvikling</h2>
+                        <img class="illustrasjon" src="images/web.jpg" alt="Bilde av web/>
+                        <p class="artikkelskrift">Webutvikling mappen min</p>
+                        <p class="artikkelskrift">Trykk <a class="lesmer" href="webutvikling/index1.html" >her</a> for å lese mer! </p>
+                    </article>
+                </section>
+                <section class="flex">
+                    <article class="artiklene" >
+                        <h2 class="artikkeloverskrift">innføring i programmering</h2>
+                        <img class="illustrasjon" src="images/innfprog.jpg" alt="Bilde av programmering"/>
+                        <p class="artikkelskrift">Innføring i programmering mappen min</p>
+                        <p class="artikkelskrift">Trykk <a class="lesmer" href="innfprog/index2.html" >her</a> for å lese mer! </p>
+                    </article>
+                </section>
+        </main>
+        <footer class="box"> <!--Her ligger foten av nettsiden.-->
+            <p>År: 2020 &copy;Knut Ole Kvilhaug Magnussen, Epost: <a href="komagnus@hiof.no">komagnus@hiof.no</a></p>
+        </footer>
+    
+    </body>
+</html>
