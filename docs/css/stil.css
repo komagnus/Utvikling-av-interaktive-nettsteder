@@ -27,10 +27,12 @@ nav {
     grid-column-start: 1;
     grid-column-end: 1;
     justify-self: left;
+    align-self: center;
     margin-left: 10%;
     font-family: Tahoma, sans-serif;
     color: black;
     font-size: x-large;
+    text-decoration: none;
 }
 #h2 {
     grid-column-start: 3;
