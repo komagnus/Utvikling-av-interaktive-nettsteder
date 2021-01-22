@@ -29,6 +29,8 @@ nav {
     justify-self: left;
     margin-left: 10%;
     font-family: Tahoma, sans-serif;
+    color: black;
+    font-size: x-large;
 }
 #h2 {
     grid-column-start: 3;
