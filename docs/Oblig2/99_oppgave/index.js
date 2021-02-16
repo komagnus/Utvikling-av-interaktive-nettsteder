@@ -171,7 +171,7 @@ try {
 		
 		// Use array destructuring to change the 3 statements below into 1 statement.
 		// Tip: Spread operator might be needed too.
-		let { a, b, c } = newArr(arr);
+		const [a, , b, ...c] = arr;
 
 		
 		
@@ -196,7 +196,7 @@ try {
 		
 		// Use array destructuring to change the 3 statements below into 1 statement.
 		// You should not need a temporary variable anymore.
-		[a++, b--]
+		[a, b] = [b,a];
 
 		// Don't make changes below this line	
 		
