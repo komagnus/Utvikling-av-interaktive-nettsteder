@@ -3,6 +3,7 @@ import client from './client.js';
 const movieFields = `
     title,
     actor,
+    name,
 `;
 
 export const getMovies = async () => {
