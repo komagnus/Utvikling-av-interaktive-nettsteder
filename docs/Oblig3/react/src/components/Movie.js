@@ -1,8 +1,9 @@
+
 const Movie = ({ title, actor }) => {
     return (
         <>
-        <p>{title}</p>
-        <p>{actor}</p>
+        <p id="film">Film: {title}</p>
+        <p id="skuespiller">Skuespiller: {actor}</p>
         </>
     )
 }

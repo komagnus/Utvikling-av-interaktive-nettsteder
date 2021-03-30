@@ -1,6 +1,6 @@
+import Movie from "./Movie.js";
 import React, { useState } from "react";
 import { getMovies } from "../utils/movieService.js";
-import Movie from "./Movie.js";
 
 const Movies = () => {
 
@@ -9,11 +9,11 @@ const Movies = () => {
         const movies = await getMovies();
         setData(movies);
     };
+    
     return (
         <>
         <button onClick={Button}> Get sanity content </button>
-        {data?.length > 0  ?<p>{JSON.stringify(data)}</p> : null}
-        <Movie/>
+        {data?.length > 0  ? data.map(movie => <Movie title={movie.title} actor={movie.actor} />) : <p>Finn filmer.</p>}
         </>
     )
 }

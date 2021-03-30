@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+#film {
+  font-size: large;
+  padding-bottom: 1px;
+  border-top: 1px solid black;
+}
+#skuespiller {
+  font-size: medium;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
